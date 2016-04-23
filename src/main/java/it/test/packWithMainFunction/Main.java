@@ -1,5 +1,6 @@
 package it.test.packWithMainFunction;
-import it.test.progGen.GenMeth;
+import it.test.progGen.ArrayOutput;
+import it.test.progGen.ArrayInvert;
 import it.test.progGen.GenObject;
 import java.util.ArrayList;
 import java.util.List;
@@ -39,15 +40,16 @@ class Main {
         masDataStr.add("World");
         masDataStr.add("!!!");
 
-        GenMeth genMeth = new GenMeth();
+        ArrayInvert genMeth = new ArrayInvert();
+        ArrayOutput arrOut = new ArrayOutput();
 
-        genMeth.printMassive(masDataInt);
+        arrOut.printMassive(masDataInt);
         genMeth.invertMassive(masDataInt);
-        genMeth.printMassive(masDataInt);
+        arrOut.printMassive(masDataInt);
 
-        genMeth.printMassive(masDataStr);
+        arrOut.printMassive(masDataStr);
         genMeth.invertMassive(masDataStr);
-        genMeth.printMassive(masDataStr);
+        arrOut.printMassive(masDataStr);
 
     }
 }

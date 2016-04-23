@@ -1,11 +1,11 @@
 package it.test.progGen;
-import it.test.progIF.IMyIFInv;
+import it.test.progIF.IMyArrayInvert;
 import java.util.List;
 
 /**
  * This class contains genric method for inverting massive with data.
  */
-public class ArrayInvert implements IMyIFInv {
+public class ArrayInvert implements IMyArrayInvert {
     /**
      * This is generic method.
      * @param  dataMas - massive with data.
