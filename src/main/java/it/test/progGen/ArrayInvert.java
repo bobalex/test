@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * This class contains genric method for inverting massive with data.
  */
-public class GenMeth implements IMyIFInv {
+public class ArrayInvert implements IMyIFInv {
     /**
      * This is generic method.
      * @param  dataMas - massive with data.
@@ -25,14 +25,5 @@ public class GenMeth implements IMyIFInv {
 
     }
 
-    /**
-     * Print data massive.
-     * @param dataMas - massive with data.
-     * @param <T> - generic type.
-     */
-    public <T> void printMassive( final List<T> dataMas) {
-        for (int i = 0; i < dataMas.size(); i++) {
-            System.out.println(dataMas.get(i));
-        }
-    }
+
 }
