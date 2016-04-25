@@ -1,12 +1,10 @@
 package it.test.progGen;
 
-import it.test.progIF.IMyIFObj;
-
 /**
  * This is user-defined generic class.
  * @param <T> - generic type.
  */
-public class GenObject<T>{
+public class GenObject <T>{
     /**
      * tmp - temporary variable.
      */
@@ -35,6 +33,5 @@ public class GenObject<T>{
     public void mySetValue(final T newValue) {
         tmp = newValue;
     }
-
 
 }

@@ -12,7 +12,7 @@ public class ArrayOutput implements IMyArrayOutput {
      * @param dataMas - massive with data.
      * @param <T> - generic type.
      */
-    public <T> void printMassive( final List<T> dataMas) {
+    public <T> void printMassive(final List<T> dataMas) {
         for (int i = 0; i < dataMas.size(); i++) {
             System.out.println(dataMas.get(i));
         }
