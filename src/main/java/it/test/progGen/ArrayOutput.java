@@ -15,6 +15,7 @@ public class ArrayOutput implements IMyArrayOutput {
     public <T> void printMassive(final List<T> dataMas) {
         for (int i = 0; i < dataMas.size(); i++) {
             System.out.println(dataMas.get(i));
+
         }
     }
 }

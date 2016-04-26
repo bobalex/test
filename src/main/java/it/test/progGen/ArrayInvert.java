@@ -21,9 +21,5 @@ public class ArrayInvert implements IMyArrayInvert {
             dataMas.set(i, dataMas.get(masSize - i - 1));
             dataMas.set(masSize - i - 1, tmp);
         }
-
-
     }
-
-
 }
